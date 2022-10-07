@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.login_form {
+    background-color: rgba(0, 0, 0, 0.934);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border: red 3px solid;
+    border-radius: 20px;
+    height: 400x;
+    width: 300px;
+    padding: 5vh;
+}
+
+.login_form h1 {
+    text-align: center;
+
+}
+
+.login_form label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-size: large;
+}
+
+.login_form input {
+    display: block;
+    height: 35px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.844);
+    margin-top: 8px;
+    align-items: center;
+    text-indent: 10px;
+}
+
+#sub_login {
+    margin-top: 25px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    color: grey;
+    text-decoration: none;
+}
